@@ -1,0 +1,23 @@
+# ---- 模型权重（体积超过 GitHub 限制，不纳入版本管理）----
+models/*.onnx
+models/*.pth
+gfpgan/weights/*.pth
+gfpgan/weights/*.onnx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行时产物 ----
+output/
+temp/
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
